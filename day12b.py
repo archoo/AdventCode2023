@@ -1,7 +1,7 @@
 import itertools,re,operator,functools
 
 rawdata = [r.strip().split(' ') for r in open('day12_test.txt').readlines()]
-folds = 2
+folds = 1
 tot = 0
 for row in rawdata: 
   print(row)
